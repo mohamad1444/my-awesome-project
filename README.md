@@ -1,6 +1,6 @@
 # my-awesome-project# File: dashboard.py
 import datetime, random, json
-data = {
+data = {c
     "last_updated": str(datetime.datetime.now()),
     "total_files": random.randint(10, 100),
     "status": "active"
