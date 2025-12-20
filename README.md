@@ -1,7 +1,7 @@
 # my-awesome-project# File: dashboard.py
 import datetime, random, jsont
 data = {
-    "last_updated": str(datetime.datetime.now()),f
+    "last_updated": str(datetime.datetime.now()),fh
     "total_files": random.randint(10, 100),
     "status": "active"
 }
