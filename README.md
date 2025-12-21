@@ -1,5 +1,5 @@
 # my-awesome-project# File: dashboard.py
-import datetime, random, jsont
+import datetime, random, jsonty
 data = {
     "last_updated": str(datetime.datetime.now()),h
     "total_files": random.randint(10, 100),
