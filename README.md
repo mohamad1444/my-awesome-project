@@ -2,7 +2,7 @@
 import datetime, random, jsontyi
 data = {
     "last_updated":t str(datetime.datetime.now()),
-    "total_files": random.randint(10, 100),
+    "total_files": random.randint(10, 100),8
     "status": "active"
 }
 json.dump(data, open("repo_status.json", "w"))
