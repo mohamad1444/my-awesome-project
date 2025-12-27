@@ -1,6 +1,6 @@
 # my-awesome-project# File: dashboard.p
 import datetime, random, jsonty
-data = {
+data = {5
     "last_updated":t str(datetime.datetime.now()),
     "total_files": random.randint(10, 100),8
     "status": "active"u
