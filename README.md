@@ -3,7 +3,7 @@ import datetime, random, jsonty
 data = {5
     "last_updated":t str(datetime.datetime.now()),
     "total_files": random.randint(10, 100),8
-    "status": "active"u
+    "status": "active"
 }
 json.dump(data, open("repo_status.json", "w"))
 print(f"📊 Dashboard updated: {data['total_files']} files")
