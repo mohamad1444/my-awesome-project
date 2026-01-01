@@ -1,4 +1,4 @@
-# my-awesome-project# File: dashboard.p
+# my-awesome-project# File: dashboard.
 import datetime, random, jsontdt
 data = {
     "last_updated":t str(datetime.datetime.now()),
